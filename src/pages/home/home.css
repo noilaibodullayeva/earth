@@ -1,0 +1,40 @@
+.home {
+    background-image: url(../img/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 680px;
+    margin-top: 0;
+}
+
+.wordss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.earth {
+    font-size: 75px;
+    letter-spacing: 10px;
+    color: #2C541D;
+    font-weight: 900;
+}
+
+.endless {
+    font-size: 25px;
+    color: '#74A84A';
+    font-weight: 100;
+    letter-spacing: 15px;
+}
+
+.exploree {
+    font-size: px;
+    background-color: #74A84A;
+    color: #fff;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: none;
+cursor: pointer;
+}

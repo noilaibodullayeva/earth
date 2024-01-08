@@ -1,0 +1,32 @@
+.design {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 40px 200px;
+    gap: 25px;
+}
+
+.design_one {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.design_one>img {
+    width: 300px;
+    height: 400px;
+}
+
+.web {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 15px 0;
+    color: #000;
+}
+
+.lorem {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: grey;
+}

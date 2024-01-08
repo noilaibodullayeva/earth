@@ -1,0 +1,35 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 200px;
+}
+
+.aboutus{
+    flex: 6;
+}
+
+.about{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 15px 0;
+}
+
+.lorem {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #666;
+    padding: 0 20px 0 0;
+}
+
+.imgAnout{
+    flex: 6;
+}
+
+.aboutImg{
+    width: 550px;
+    height: 400px;
+    
+}

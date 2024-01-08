@@ -1,0 +1,46 @@
+.topbar {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    position: sticky;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.logo {
+    flex: 6;
+}
+
+.logo .Logo {
+    font-size: 20px;
+    margin: 0 0 10px 90px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menuList {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+   gap: 25px;
+   right: 10%;
+}
+
+.menuList .list {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menuList ul > li{
+    cursor: pointer;
+    color:'#2E6877';
+    font-size: 16px;
+}

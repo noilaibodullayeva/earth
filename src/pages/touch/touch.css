@@ -1,0 +1,41 @@
+.touch {
+    background-image: url(../img//About-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.earth {
+    font-size: 35px;
+    letter-spacing: 10px;
+    color: #2C541D;
+    font-weight: 900;
+}
+
+.endless {
+    letter-spacing: 0;
+    font-size: 20px;
+    width: 500px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.explore {
+    font-size: 13px;
+    background-color: #74A84A;
+    color: #fff;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: none;
+    letter-spacing: 10px;
+}
