@@ -1,0 +1,17 @@
+.aboutCompo{
+   background-image: url(../AboutCompo/About-banner.jpg); 
+   background-size: cover;
+   height: 600px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.who{
+    color:#2C541D ;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+

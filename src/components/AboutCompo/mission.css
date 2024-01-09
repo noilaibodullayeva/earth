@@ -1,0 +1,36 @@
+.mission{
+    display: flex;
+}
+
+.imgMission{
+    flex: 6;
+}
+
+.Missionus{
+    flex: 6;
+    align-items: center;
+    text-align: left;
+    padding: 10% 0;
+}
+
+.missiImg{
+    width: 400px;
+    height: 450px;
+    padding: 10% 7% 10% 40%;
+}
+
+.missionn{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.Missionus > p{
+    margin-bottom: 40px ;
+}
+
+.loremMission{
+    width: 500px;
+    color: #666;
+    font-family: 'Josefin Sans', sans-serif;
+}

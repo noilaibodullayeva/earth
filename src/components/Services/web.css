@@ -1,0 +1,42 @@
+.web{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.web_one{
+    display: flex;
+    padding: 60px 200px;
+}
+
+.webImg{
+    flex: 6;
+}
+
+.webImg > img{
+    width: 400px;
+    height: 350px;
+}
+
+.webText{
+    flex: 6;
+    width: 500px;
+    text-align: left;
+    align-items: center;
+}
+
+.loremWeb{
+    font-size: 18px;
+    color: #666;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.webb {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 15px 0;
+    color: #000;
+}
