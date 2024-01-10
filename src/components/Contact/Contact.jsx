@@ -1,18 +1,16 @@
 import Footer from "../../pages/Footer/Footer";
-import Touch from "../../pages/touch/Touch";
+import Forms from "./Form";
 import "./contact.css";
-import Mission from "./Mission";
 
-export default function About() {
+export default function Contact() {
     return (
         <>
-         <div className="aboutCompo">
-           <span className="who">CONTACT US</span>
-        </div>
-        <Mission/>
-        <Touch/>
-        <Footer/>
+            <div className="aboutCompo">
+                <span className="who">CONTACT US</span>
+            </div>
+            <Forms />
+            <Footer />
         </>
-       
+
     )
 }

@@ -5,21 +5,25 @@ import Design from "./pages/design/Design";
 import About from "./pages/about/About";
 import Touch from "./pages/touch/Touch";
 import Footer from "./pages/Footer/Footer";
-import AaboutCompo from "./components/AboutCompo/AboutCompo"
-import Services from "./components/Services/Services";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Topbar />
-      {/* <AaboutCompo /> */}
-<Services/>
+      <Router>
+        <Topbar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Design />
+          <About />
+          <Touch />
+          <Footer />
+        </Switch>
 
-      <Home />
-      <Design />
-      <About />
-      <Touch />
-      <Footer />
+      </Router>
+
     </div>
   );
 }

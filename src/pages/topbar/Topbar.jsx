@@ -1,23 +1,32 @@
 import "./topbar.css"
+import { Link } from "react-router-dom";
 
 export default function Topbar() {
-    return(
+    return (
         <div className="topbar">
             <div className="logo">
                 <span className="Logo">EARTH</span>
             </div>
             <div className="menuList">
                 <ul className="list">
-                    <li>HOME</li>
+                    <li> <Link className="link" exact to="/">
+                        HOME
+                    </Link></li>
                 </ul>
                 <ul className="list">
-                    <li>ABOUT</li>
+                    <li> <Link className="link" exact to="/aboutCompo">
+                ABOUT
+              </Link></li>
                 </ul>
                 <ul className="list">
-                    <li>SERVICES</li>
+                    <li> <Link className="link" exact to="/services">
+                SERVICES
+              </Link></li>
                 </ul>
                 <ul className="list">
-                    <li>CONTACT</li>
+                    <li> <Link className="link" exact to="/contact">
+                CONTACT
+              </Link></li>
                 </ul>
             </div>
         </div>
