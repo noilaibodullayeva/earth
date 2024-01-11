@@ -14,22 +14,16 @@ export default function Topbar() {
                             HOME
                         </Link>
                     </li>
-                </ul>
-                <ul className="list">
                     <li>
                         <Link className="link" exact to="/aboutCompo">
                             ABOUT
                         </Link>
                     </li>
-                </ul>
-                <ul className="list">
                     <li>
                         <Link className="link" exact to="/services">
                             SERVICES
                         </Link>
                     </li>
-                </ul>
-                <ul className="list">
                     <li>
                         <Link className="link" exact to="/contact">
                             CONTACT
