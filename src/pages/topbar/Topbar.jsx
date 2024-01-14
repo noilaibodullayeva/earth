@@ -15,12 +15,12 @@ export default function Topbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link className="link" exact to="/aboutCompo">
+                        <Link className="link" exact to="/about">
                             ABOUT
                         </Link>
                     </li>
                     <li>
-                        <Link className="link" exact to="/services">
+                        <Link className="link" exact to="/service">
                             SERVICES
                         </Link>
                     </li>

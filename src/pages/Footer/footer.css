@@ -36,7 +36,8 @@
 ul>li {
     font-size: 10px;
     cursor: pointer;
-    color: '#2E6877'
+    color: '#2E6877';
+    margin-left: 10px;
 }
 
 .copyright {
